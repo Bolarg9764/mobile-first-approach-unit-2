@@ -42,7 +42,7 @@ justify-content: space-between;
 align-items: center;
 }
 
-.nav-bar h1{
+.nav-bar h2{
 font-weight: bold;
 font-size: 2rem;
 padding-left: 10px;
@@ -142,7 +142,7 @@ justify-content: space-between;
 align-items: center;
 }
 
-.nav-bottom h1{
+.nav-bottom h2{
 font-weight: bold;
 font-size: 2rem;
 }
@@ -216,7 +216,7 @@ line-height: 1.5;
 width: 100%;
 }
 
-.nav-bar h1{
+.nav-bar h2{
 width: 100%;
 display: block;
 text-align: center;
@@ -317,7 +317,7 @@ display: inline-block;
     align-items: center;
     }
     
-    .nav-bottom h1{
+    .nav-bottom h2{
     font-weight: bold;
     font-size: 2rem;
     }
@@ -363,7 +363,7 @@ line-height: 1.5;
 width: 100%;
 }
 
-.nav-bar h1{
+.nav-bar h2{
 width: 100%;
 display: block;
 text-align: center;
@@ -458,7 +458,7 @@ display: flex;
 justify-content: space-evenly;
 text-align: center;
 }
-.nav-bottom h1{
+.nav-bottom h2{
 display: block;
 font-weight: bold;
 font-size: 1rem;
