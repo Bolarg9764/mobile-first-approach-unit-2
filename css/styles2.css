@@ -1,0 +1,111 @@
+
+.card-1{
+grid-area: cd1;
+
+}
+
+.card-2{
+grid-area: cd2;
+
+}
+
+.card-3{
+grid-area: cd3;
+
+}
+.card-4{
+grid-area: cd4;
+}
+
+.card-5{
+grid-area: cd5;
+}
+
+.card-6{
+grid-area: cd6;
+}
+
+.card {
+padding: 15px 5px;
+border: 1px solid magenta;
+border-radius: 2px;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top{
+width: 100%;
+max-height: 150px;
+}
+
+.card-title{
+text-align: center;
+line-height: 3;
+}
+
+.card-text{
+padding: 0px 5px;
+}
+.clearfix::before {
+content: "";
+clear: both;
+display: table;
+}
+
+
+@media (min-width: 1024px) {
+
+.row{
+display: grid;
+width: 100%;
+max-width: 1200px;
+grid-template-columns:repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-gap:10px;
+margin: 0 auto;
+padding: 10px;
+cursor: pointer;
+grid-template-areas: 
+"cd1 cd2 cd3"
+"cd4 cd5 cd6";
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+.row{
+display: grid;
+width: 100%;
+grid-template-columns:repeat(2, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-gap:10px;
+margin: 0 auto;
+padding: 10px;
+cursor: pointer;
+grid-template-areas: 
+"cd1 cd2"
+"cd3 cd4"
+"cd5 cd6";
+}
+} 
+
+@media (max-width: 767px) {
+
+.row{ 
+display: grid;
+width: 100%;
+/* grid-template-columns: 1fr; */
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+grid-template-rows: repeat(6, 1fr);
+grid-gap:10px;
+margin: 0 auto;
+padding: 10px;
+cursor: pointer;
+grid-template-areas: 
+"cd1" "cd2"
+"cd3" "cd4"
+"cd5" "cd6";
+}
+}
