@@ -26,7 +26,7 @@ grid-area: cd6;
 }
 
 .card {
-padding: 15px 5px;
+padding: 10px 5px;
 border: 1px solid magenta;
 border-radius: 2px;
 box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -38,8 +38,10 @@ max-height: 150px;
 }
 
 .card-title{
+    font-size: 2rem;
 text-align: center;
-line-height: 3;
+margin: 5px 0;
+/* line-height: 3; */
 }
 
 .card-text{
@@ -51,6 +53,11 @@ clear: both;
 display: table;
 }
 
+.nav-bottom li {
+display: inline-block;
+padding-right: 5px;
+
+}
 
 @media (min-width: 1024px) {
 
